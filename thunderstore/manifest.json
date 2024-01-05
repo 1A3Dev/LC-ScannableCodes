@@ -1,6 +1,6 @@
 {
   "name": "ScannableCodes",
-  "version_number": "1.0.0",
+  "version_number": "1.0.1",
   "website_url": "https://github.com/1A3Dev/LC-ScannableCodes",
   "description": "Makes the ID of turrets, landmines & big doors visible when scanning them.",
   "dependencies": ["BepInEx-BepInExPack-5.4.2100"]
