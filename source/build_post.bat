@@ -1,3 +1,0 @@
-copy ".\bin\Release\netstandard2.1\ScanCodes.dll" "..\thunderstore\ScannableCodes.dll" /Y
-copy ".\bin\Release\netstandard2.1\ScanCodes.dll" "C:\Users\Jenson\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Default\BepInEx\plugins\Dev1A3-ScannableCodes\ScannableCodes.dll" /Y
-copy ".\bin\Release\netstandard2.1\ScanCodes.pdb" "C:\Users\Jenson\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Default\BepInEx\plugins\Dev1A3-ScannableCodes\ScannableCodes.pdb" /Y

@@ -12,6 +12,8 @@ This mod makes it so when you scan a turrets/landmine/big door it shows the term
 ### Compatibility
 
 - Supported Game Versions:
+  - v50+
+  - v47-v49
   - v45
 - Works Well With:
   - [LCRemoteTerminal](https://thunderstore.io/c/lethal-company/p/hesukastro/LCRemoteTerminal/)
