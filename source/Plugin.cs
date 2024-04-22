@@ -1,15 +1,16 @@
 ﻿using System.Reflection;
 using BepInEx;
+using BepInEx.Configuration;
 using BepInEx.Logging;
 using HarmonyLib;
 using UnityEngine;
 
-namespace ScanCodes
+namespace ScannableCodes
 {
-    [BepInPlugin(modGUID, "ScanCodes", modVersion)]
+    [BepInPlugin(modGUID, "ScannableCodes", modVersion)]
     internal class PluginLoader : BaseUnityPlugin
     {
-        internal const string modGUID = "Dev1A3.ScanCodes";
+        internal const string modGUID = "Dev1A3.ScannableCodes";
 
         private readonly Harmony harmony = new Harmony(modGUID);
 
@@ -34,7 +35,7 @@ namespace ScanCodes
             harmony.PatchAll(patches);
 
             logSource = BepInEx.Logging.Logger.CreateLogSource(modGUID);
-            logSource.LogInfo("Loaded ScanCodes");
+            logSource.LogInfo("Loaded ScannableCodes");
         }
     }
 
@@ -49,6 +50,7 @@ namespace ScanCodes
             {
                 Transform scanTransform = __instance.transform.parent ? __instance.transform.parent : __instance.transform;
                 ScanNodeProperties scanNodeObj = scanTransform.GetComponentInChildren<ScanNodeProperties>();
+
                 if (scanNodeObj != null)
                 {
                     scanNodeObj.subText = $" {__instance.objectCode}";
