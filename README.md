@@ -9,6 +9,13 @@
 
 This mod makes it so when you scan a turrets/landmine/big door it shows the terminal code of it. This also slightly increases the scan distance of turrets & big doors to make viewing the terminal code easier.
 
+### Support
+
+You can get support in any the following places:
+
+- [GitHub Issues](https://github.com/1A3Dev/LC-ScannableCodes/issues)
+- [My Discord Server](https://discord.gg/DZD2apDnMM)
+
 ### Compatibility
 
 - Supported Game Versions:
@@ -19,12 +26,3 @@ This mod makes it so when you scan a turrets/landmine/big door it shows the term
   - [LCRemoteTerminal](https://thunderstore.io/c/lethal-company/p/hesukastro/LCRemoteTerminal/)
 - Not Compatible With:
   - N/A
-
-### Configuration
-
-The mod has no configuration options.
-
-### Credits
-
-- [1A3](https://github.com/1A3Dev) - _Creator_
-- [AlbinoGeek](https://github.com/AlbinoGeek) - _Moral Support_
