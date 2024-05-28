@@ -13,6 +13,7 @@ This mod makes it so when you scan a turret/landmine/big door it shows the termi
 
 You can get support in any the following places:
 
+- The [thread](https://discord.com/channels/1168655651455639582/1192620220439859290) in the [LC Modding Discord Server](https://discord.gg/lcmod)
 - [GitHub Issues](https://github.com/1A3Dev/LC-ScannableCodes/issues)
 - [My Discord Server](https://discord.gg/DZD2apDnMM)
 
