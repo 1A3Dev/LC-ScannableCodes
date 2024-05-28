@@ -109,7 +109,7 @@ namespace ScannableCodes
                 scanNodeObj.creatureScanID = -1;
                 scanNodeObj.nodeType = 1;
 
-                PluginLoader.logSource.LogDebug($"Added scan node to {scanCubeObj.name} (Range: {scanNodeObj.maxRange})");
+                //PluginLoader.logSource.LogDebug($"Added scan node to {__instance.name} (Range: {scanNodeObj.maxRange})");
             }
         }
     }
