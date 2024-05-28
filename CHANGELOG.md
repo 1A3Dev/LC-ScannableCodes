@@ -1,3 +1,7 @@
+### 1.0.4
+
+- Added a config option to allow scanning spike traps.
+
 ### 1.0.3
 
 - Updated README.md to mention v50 support.

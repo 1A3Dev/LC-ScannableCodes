@@ -7,7 +7,7 @@
 
 ### Information
 
-This mod makes it so when you scan a turrets/landmine/big door it shows the terminal code of it. This also slightly increases the scan distance of turrets & big doors to make viewing the terminal code easier.
+This mod makes it so when you scan a turret/landmine/big door it shows the terminal code of it. This also slightly increases the scan distance of turrets & big doors to make viewing the terminal code easier. It also adds a config option to allow you to scan spike traps.
 
 ### Support
 
