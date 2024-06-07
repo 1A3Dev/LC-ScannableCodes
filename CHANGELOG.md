@@ -1,3 +1,7 @@
+### 1.0.5
+
+- Made the codes show as uppercase. [@Test-Account666](https://github.com/Test-Account666)
+
 ### 1.0.4
 
 - Added a config option to allow scanning spike traps.
