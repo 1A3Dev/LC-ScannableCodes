@@ -69,7 +69,7 @@ namespace ScannableCodes
 
                 if (scanNodeObj != null)
                 {
-                    scanNodeObj.subText = $" {__instance.objectCode}";
+                    scanNodeObj.subText = $" {__instance.objectCode.ToUpper()}";
 
                     if (__instance.isBigDoor)
                     {
@@ -80,7 +80,7 @@ namespace ScannableCodes
                         scanNodeObj.maxRange = 10;
                     }
 
-                    PluginLoader.logSource.LogDebug($"Set code of {scanTransform.name}: {__instance.objectCode} (Range: {scanNodeObj.maxRange})");
+                    PluginLoader.logSource.LogDebug($"Set code of {scanTransform.name}: {__instance.objectCode.ToUpper()} (Range: {scanNodeObj.maxRange})");
                 }
             }
         }
