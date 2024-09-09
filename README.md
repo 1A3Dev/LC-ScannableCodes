@@ -21,6 +21,7 @@ You can get support in any the following places:
 
 - Supported Game Versions:
   - v60+
+  - v50-v56
   - v45-v49
 - Works Well With:
   - [LCRemoteTerminal](https://thunderstore.io/c/lethal-company/p/hesukastro/LCRemoteTerminal/)
