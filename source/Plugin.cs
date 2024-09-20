@@ -7,14 +7,10 @@ using UnityEngine;
 
 namespace ScannableCodes
 {
-    [BepInPlugin(modGUID, "ScannableCodes", modVersion)]
+    [BepInPlugin(MyPluginInfo.PLUGIN_GUID, MyPluginInfo.PLUGIN_NAME, MyPluginInfo.PLUGIN_VERSION)]
     internal class PluginLoader : BaseUnityPlugin
     {
-        internal const string modGUID = "Dev1A3.ScannableCodes";
-
-        private readonly Harmony harmony = new Harmony(modGUID);
-
-        private const string modVersion = "1.0.0";
+        private readonly Harmony harmony = new Harmony(MyPluginInfo.PLUGIN_GUID);
 
         private static bool initialized;
 
@@ -36,7 +32,7 @@ namespace ScannableCodes
             Assembly patches = Assembly.GetExecutingAssembly();
             harmony.PatchAll(patches);
 
-            logSource = BepInEx.Logging.Logger.CreateLogSource(modGUID);
+            logSource = BepInEx.Logging.Logger.CreateLogSource(MyPluginInfo.PLUGIN_GUID);
             logSource.LogInfo("Loaded ScannableCodes");
         }
 
