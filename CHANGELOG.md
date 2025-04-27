@@ -1,6 +1,10 @@
-### 1.0.6
+### 1.0.7
 
 - Updated GUID
+
+### 1.0.6
+
+- Updated README.md
 
 ### 1.0.5
 
