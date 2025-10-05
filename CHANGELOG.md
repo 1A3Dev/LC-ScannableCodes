@@ -1,3 +1,7 @@
+### 1.0.8
+
+- Re-built for v73
+
 ### 1.0.7
 
 - Updated GUID
