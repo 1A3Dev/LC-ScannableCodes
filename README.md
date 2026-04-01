@@ -21,7 +21,7 @@ You can get support in any the following places:
 
 | Mod Version | Game Version |
 | ----------- | ------------ |
-| v1.0.7      | v45 - v80    |
+| v1.0.9      | v45 - v80    |
 
 ### Compatibility
 
