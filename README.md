@@ -17,12 +17,14 @@ You can get support in any the following places:
 - [GitHub Issues](https://github.com/1A3Dev/LC-ScannableCodes/issues)
 - [My Discord Server](https://discord.gg/CKqVFPRtKp)
 
+### Latest Versions
+
+| Mod Version | Game Version |
+| ----------- | ------------ |
+| v1.0.7      | v45 - v80    |
+
 ### Compatibility
 
-- Supported Game Versions:
-  - v60+
-  - v50-v56
-  - v45-v49
 - Works Well With:
   - [LCRemoteTerminal](https://thunderstore.io/c/lethal-company/p/hesukastro/LCRemoteTerminal/)
 - Not Compatible With:
